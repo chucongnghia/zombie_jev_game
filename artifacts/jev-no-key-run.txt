@@ -1,0 +1,23 @@
+2026-10-09 07:43:17,014 INFO game.game Game started; AI mode=jev
+2026-10-09 07:43:17,035 INFO game.game FALLBACK action=HOLD_POSITION confidence=None latency_ms=0.34806899998329754 error=missing_key
+2026-10-09 07:43:17,812 INFO game.game FALLBACK action=HOLD_POSITION confidence=None latency_ms=0.056731000086074346 error=missing_key
+2026-10-09 07:43:18,587 INFO game.game FALLBACK action=SHOOT_NEAREST confidence=None latency_ms=0.08378200004699465 error=missing_key
+2026-10-09 07:43:19,355 INFO game.game FALLBACK action=HOLD_POSITION confidence=None latency_ms=0.08342699993590941 error=missing_key
+{
+  "run_id": "782e030dff10",
+  "mode": "jev",
+  "survival_time": 3.016,
+  "kills": 0,
+  "score": 0,
+  "wave": 1,
+  "total_decisions": 4,
+  "jev_decisions": 0,
+  "average_confidence": null,
+  "average_jev_latency": null,
+  "api_errors": 4,
+  "fallback_count": 4,
+  "fallback_rate": 1.0,
+  "most_used_action": "HOLD_POSITION",
+  "highest_confidence_action": null,
+  "lowest_confidence_decision": null
+}

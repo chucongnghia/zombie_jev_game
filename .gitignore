@@ -1,0 +1,12 @@
+.venv/
+.tools/
+.env*
+!.env.example
+__pycache__/
+.pytest_cache/
+*.py[cod]
+logs/*
+!logs/.gitkeep
+*.zip
+*:Zone.Identifier
+# Keep sanitized demo screenshots and verification reports in source control.

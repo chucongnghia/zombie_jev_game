@@ -1,0 +1,6 @@
+# pygame-ce is the maintained pygame-compatible distribution; import pygame.
+pygame-ce==2.5.8
+python-dotenv==1.2.4
+# Official TypeSafe SDK, verified against its v0.7.2 source.
+typesafe-sdk==0.7.2
+pytest==9.1.1

@@ -1,0 +1,54 @@
+2026-10-09 07:43:04,773 INFO game.game Game started; AI mode=mock
+2026-10-09 07:43:04,778 INFO game.game MOCK action=HOLD_POSITION confidence=0.6743040902152159 latency_ms=0.10194200012847432 error=None
+2026-10-09 07:43:05,541 INFO game.game MOCK action=HOLD_POSITION confidence=0.7128057726933064 latency_ms=0.06792199997107673 error=None
+2026-10-09 07:43:06,304 INFO game.game MOCK action=SHOOT_NEAREST confidence=0.6589663195189752 latency_ms=0.11113799996564921 error=None
+2026-10-09 07:43:07,065 INFO game.game MOCK action=HOLD_POSITION confidence=0.703681614608917 latency_ms=0.1517689997854177 error=None
+2026-10-09 07:43:07,828 INFO game.game MOCK action=SHOOT_NEAREST confidence=0.6819212812127243 latency_ms=0.054601000101683894 error=None
+2026-10-09 07:43:08,585 INFO game.game MOCK action=HOLD_POSITION confidence=0.6558584966459865 latency_ms=0.11159999985466129 error=None
+2026-10-09 07:43:09,348 INFO game.game MOCK action=SHOOT_NEAREST confidence=0.6172458637438106 latency_ms=0.05695400000149675 error=None
+2026-10-09 07:43:10,110 INFO game.game MOCK action=HOLD_POSITION confidence=0.6579275928242446 latency_ms=0.11156499999742664 error=None
+2026-10-09 07:43:10,868 INFO game.game MOCK action=SHOOT_NEAREST confidence=0.6353022255373376 latency_ms=0.12324899989835103 error=None
+2026-10-09 07:43:11,626 INFO game.game MOCK action=RELOAD confidence=0.6339360020934582 latency_ms=0.05697799997506081 error=None
+2026-10-09 07:43:12,376 INFO game.game MOCK action=MOVE_AWAY confidence=0.6071200215801674 latency_ms=0.0664950000555109 error=None
+2026-10-09 07:43:13,136 INFO game.game MOCK action=SHOOT_NEAREST confidence=0.6766815271741592 latency_ms=0.05921799993302557 error=None
+2026-10-09 07:43:13,896 INFO game.game MOCK action=HOLD_POSITION confidence=0.6812846952328978 latency_ms=0.08866400003171293 error=None
+2026-10-09 07:43:14,654 INFO game.game MOCK action=SHOOT_NEAREST confidence=0.598690422227059 latency_ms=0.059260000170979765 error=None
+2026-10-09 07:43:15,418 INFO game.game MOCK action=HOLD_POSITION confidence=0.6793037455034469 latency_ms=0.05670300015481189 error=None
+2026-10-09 07:43:16,176 INFO game.game MOCK action=SHOOT_NEAREST confidence=0.6483311071285657 latency_ms=0.15283500010809803 error=None
+{
+  "run_id": "fd9112404ed8",
+  "mode": "mock",
+  "survival_time": 12.027,
+  "kills": 3,
+  "score": 300,
+  "wave": 1,
+  "total_decisions": 16,
+  "jev_decisions": 0,
+  "average_confidence": 0.657710048621267,
+  "average_jev_latency": null,
+  "api_errors": 0,
+  "fallback_count": 0,
+  "fallback_rate": 0.0,
+  "most_used_action": "HOLD_POSITION",
+  "highest_confidence_action": {
+    "action": "HOLD_POSITION",
+    "confidence": 0.7128057726933064,
+    "source": "mock"
+  },
+  "lowest_confidence_decision": {
+    "action": "SHOOT_NEAREST",
+    "confidence": 0.598690422227059,
+    "probabilities": {
+      "MOVE_AWAY": 0.0768404427881484,
+      "MOVE_TO_MEDKIT": 0.07327976875480764,
+      "MOVE_TO_AMMO": 0.07576290007480645,
+      "SHOOT_NEAREST": 0.598690422227059,
+      "RELOAD": 0.05084040186150792,
+      "HEAL": 0.047700685331502346,
+      "HOLD_POSITION": 0.07688537896216817
+    },
+    "source": "mock",
+    "latency_ms": 0.059260000170979765,
+    "error": null
+  }
+}

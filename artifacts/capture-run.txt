@@ -1,0 +1,37 @@
+{
+  "run_id": "d83efb672fe7",
+  "mode": "mock",
+  "survival_time": 88.567,
+  "kills": 38,
+  "score": 3800,
+  "wave": 4,
+  "total_decisions": 116,
+  "jev_decisions": 0,
+  "average_confidence": 0.6539599699417454,
+  "average_jev_latency": null,
+  "api_errors": 0,
+  "fallback_count": 0,
+  "fallback_rate": 0.0,
+  "most_used_action": "SHOOT_NEAREST",
+  "highest_confidence_action": {
+    "action": "RELOAD",
+    "confidence": 0.7350984658644822,
+    "source": "mock"
+  },
+  "lowest_confidence_decision": {
+    "action": "MOVE_AWAY",
+    "confidence": 0.5740122030062297,
+    "probabilities": {
+      "MOVE_AWAY": 0.5740122030062297,
+      "MOVE_TO_MEDKIT": 0.048557858639310086,
+      "MOVE_TO_AMMO": 0.07599951459585694,
+      "SHOOT_NEAREST": 0.07520679164164887,
+      "RELOAD": 0.06700657402047289,
+      "HEAL": 0.08140050879263817,
+      "HOLD_POSITION": 0.0778165493038434
+    },
+    "source": "mock",
+    "latency_ms": null,
+    "error": null
+  }
+}

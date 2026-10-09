@@ -1,0 +1,193 @@
+{
+  "mock": {
+    "runs": [
+      {
+        "run_id": "c69a1d6d3760",
+        "mode": "mock",
+        "survival_time": 88.567,
+        "kills": 38,
+        "score": 3800,
+        "wave": 4,
+        "total_decisions": 116,
+        "jev_decisions": 0,
+        "average_confidence": 0.6539599699417454,
+        "average_jev_latency": null,
+        "api_errors": 0,
+        "fallback_count": 0,
+        "fallback_rate": 0.0,
+        "most_used_action": "SHOOT_NEAREST",
+        "highest_confidence_action": {
+          "action": "RELOAD",
+          "confidence": 0.7350984658644822,
+          "source": "mock"
+        },
+        "lowest_confidence_decision": {
+          "action": "MOVE_AWAY",
+          "confidence": 0.5740122030062297,
+          "probabilities": {
+            "MOVE_AWAY": 0.5740122030062297,
+            "MOVE_TO_MEDKIT": 0.048557858639310086,
+            "MOVE_TO_AMMO": 0.07599951459585694,
+            "SHOOT_NEAREST": 0.07520679164164887,
+            "RELOAD": 0.06700657402047289,
+            "HEAL": 0.08140050879263817,
+            "HOLD_POSITION": 0.0778165493038434
+          },
+          "source": "mock",
+          "latency_ms": 0.027449000072010676,
+          "error": null
+        },
+        "time_limit_reached": false
+      },
+      {
+        "run_id": "1d9e08a66bb4",
+        "mode": "mock",
+        "survival_time": 91.767,
+        "kills": 39,
+        "score": 3900,
+        "wave": 4,
+        "total_decisions": 120,
+        "jev_decisions": 0,
+        "average_confidence": 0.645000394684938,
+        "average_jev_latency": null,
+        "api_errors": 0,
+        "fallback_count": 0,
+        "fallback_rate": 0.0,
+        "most_used_action": "SHOOT_NEAREST",
+        "highest_confidence_action": {
+          "action": "HOLD_POSITION",
+          "confidence": 0.708371734080198,
+          "source": "mock"
+        },
+        "lowest_confidence_decision": {
+          "action": "MOVE_AWAY",
+          "confidence": 0.5822248166306565,
+          "probabilities": {
+            "MOVE_AWAY": 0.5822248166306565,
+            "MOVE_TO_MEDKIT": 0.05988909775508366,
+            "MOVE_TO_AMMO": 0.06609984588201144,
+            "SHOOT_NEAREST": 0.0819928447664411,
+            "RELOAD": 0.0809903124492835,
+            "HEAL": 0.06237418753032908,
+            "HOLD_POSITION": 0.06642889498619475
+          },
+          "source": "mock",
+          "latency_ms": 0.08166900011019607,
+          "error": null
+        },
+        "time_limit_reached": false
+      },
+      {
+        "run_id": "d75754a37fa0",
+        "mode": "mock",
+        "survival_time": 62.7,
+        "kills": 18,
+        "score": 1800,
+        "wave": 3,
+        "total_decisions": 83,
+        "jev_decisions": 0,
+        "average_confidence": 0.6520085621516166,
+        "average_jev_latency": null,
+        "api_errors": 0,
+        "fallback_count": 0,
+        "fallback_rate": 0.0,
+        "most_used_action": "HOLD_POSITION",
+        "highest_confidence_action": {
+          "action": "HOLD_POSITION",
+          "confidence": 0.7297019447999573,
+          "source": "mock"
+        },
+        "lowest_confidence_decision": {
+          "action": "HOLD_POSITION",
+          "confidence": 0.5844672647168474,
+          "probabilities": {
+            "MOVE_AWAY": 0.07573499983929304,
+            "MOVE_TO_MEDKIT": 0.07729811297169763,
+            "MOVE_TO_AMMO": 0.07437485805767995,
+            "SHOOT_NEAREST": 0.0767196812953401,
+            "RELOAD": 0.07928948554703455,
+            "HEAL": 0.03211559757210734,
+            "HOLD_POSITION": 0.5844672647168474
+          },
+          "source": "mock",
+          "latency_ms": 0.01744900009725825,
+          "error": null
+        },
+        "time_limit_reached": false
+      }
+    ],
+    "average_survival_time": 81.01133333333333,
+    "average_kills": 31.666666666666668,
+    "average_confidence": 0.6503229755927666,
+    "average_jev_latency": null,
+    "fallback_rate": 0.0,
+    "time_limited_runs": 0
+  },
+  "fallback": {
+    "runs": [
+      {
+        "run_id": "4c2956aeceb3",
+        "mode": "fallback",
+        "survival_time": 88.567,
+        "kills": 38,
+        "score": 3800,
+        "wave": 4,
+        "total_decisions": 116,
+        "jev_decisions": 0,
+        "average_confidence": null,
+        "average_jev_latency": null,
+        "api_errors": 0,
+        "fallback_count": 116,
+        "fallback_rate": 1.0,
+        "most_used_action": "SHOOT_NEAREST",
+        "highest_confidence_action": null,
+        "lowest_confidence_decision": null,
+        "time_limit_reached": false
+      },
+      {
+        "run_id": "11ec69725fd1",
+        "mode": "fallback",
+        "survival_time": 91.767,
+        "kills": 39,
+        "score": 3900,
+        "wave": 4,
+        "total_decisions": 120,
+        "jev_decisions": 0,
+        "average_confidence": null,
+        "average_jev_latency": null,
+        "api_errors": 0,
+        "fallback_count": 120,
+        "fallback_rate": 1.0,
+        "most_used_action": "SHOOT_NEAREST",
+        "highest_confidence_action": null,
+        "lowest_confidence_decision": null,
+        "time_limit_reached": false
+      },
+      {
+        "run_id": "3ceaaacea75a",
+        "mode": "fallback",
+        "survival_time": 62.7,
+        "kills": 18,
+        "score": 1800,
+        "wave": 3,
+        "total_decisions": 83,
+        "jev_decisions": 0,
+        "average_confidence": null,
+        "average_jev_latency": null,
+        "api_errors": 0,
+        "fallback_count": 83,
+        "fallback_rate": 1.0,
+        "most_used_action": "HOLD_POSITION",
+        "highest_confidence_action": null,
+        "lowest_confidence_decision": null,
+        "time_limit_reached": false
+      }
+    ],
+    "average_survival_time": 81.01133333333333,
+    "average_kills": 31.666666666666668,
+    "average_confidence": null,
+    "average_jev_latency": null,
+    "fallback_rate": 1.0,
+    "time_limited_runs": 0
+  }
+}
